@@ -1,0 +1,8 @@
+{
+    "Dimension":2,
+    "Number_Of_Env":5,
+    "Number_of_Paths":3,
+    "Should_Save_Taskfile":"y",
+    "Should_Save_DataSet":"y",
+    "Format_Dataset_File":".txt"
+}
