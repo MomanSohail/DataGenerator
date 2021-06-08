@@ -1,0 +1,11 @@
+{
+    "Dimension":2,
+    "Number_Of_Env":10,
+    "Number_of_Paths":2,
+    "Should_Save_Taskfile":"y",
+    "Should_Save_DataSet":"y",
+    "Format_Dataset_File":".txt",
+    "Number_of_Obstacles":7,
+    "Should_Visualize_Path_and_ObstacleCloud":"y",
+    "Size_of_Obstacles":4.0
+}
