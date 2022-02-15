@@ -1,0 +1,39 @@
+{
+    "train":{
+        "model_path":"Models/trainModels",
+        "no_env":50,
+        "no_motion_paths" : 2000,
+        "log_step":10,
+        "save_step":50,
+        "hidden_size":256,
+        "num_layers":4,
+        "num_epochs":500,
+        "batch_size":100,
+        "learning_rate":0.0001
+    },
+    "neural": {
+        "model_path":"Models",
+        "no_env":50,
+        "no_motion_paths":2000,
+        "log_step":10,
+        "save_step":1000,
+        "input_size":18,
+        "output_size":3,
+        "hidden_size":256,
+        "num_layers":4,
+        "num_epochs":400,
+        "batch_size":100,
+        "learning_rate":0.001
+    },
+    "data_generator": {
+        "Dimension":2,
+        "Number_Of_Env":10,
+        "Number_of_Paths":2,
+        "Should_Save_Taskfile":"y",
+        "Should_Save_DataSet":"y",
+        "Format_Dataset_File":".txt",
+        "Number_of_Obstacles":7,
+        "Should_Visualize_Path_and_ObstacleCloud":"y",
+        "Size_of_Obstacles":4.0
+    }
+}

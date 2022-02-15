@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Task name= "81_artificialVFRRT.xml" >
+	<Initialstate>
+		<Object object= "plain">  0.0  0.0  0.0  0.0  0.0  1.0  0.0 </Object>
+		<Object object= "plainbox_1">  0.7205440402030945  0.7016276717185974  0.10000000149011612  8.659561265171044e-17  -0.7071068286895752  0.7071068286895752  3.1415927410125732 </Object>
